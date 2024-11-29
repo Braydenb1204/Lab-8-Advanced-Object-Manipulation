@@ -44,3 +44,6 @@ console.log(secondScore);
 //copies "student" object with spread operator
 let copiedStudent = {...student};
 
+//modifies the copied object and adds property "graduationYear"
+let modifiedObj = {...copiedStudent, graduationYear: 2026};
+console.log(modifiedObj);
