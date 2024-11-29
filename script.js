@@ -26,3 +26,9 @@ console.log(jsonString); //displays JSON string
 
 let javaObj = JSON.parse(jsonString); //converts JSON string to JavaScript object
 console.log(javaObj);
+
+
+//uses destructuring to extract students name and courses
+let {name, courses} = student;
+console.log(name);
+console.log(courses);
