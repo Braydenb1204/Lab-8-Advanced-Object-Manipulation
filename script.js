@@ -15,3 +15,7 @@
     }
 
 }
+
+console.log(student.name);
+console.log(student.age);
+student.displayInfo(); //calls function to display info
