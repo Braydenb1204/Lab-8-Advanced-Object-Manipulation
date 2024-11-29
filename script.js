@@ -7,9 +7,14 @@
     courses: ["Science", " Cooking", " Math", " History"],
     //method to add course to courses array
     addCourse: function() {
-    this.courses.push(phys-ed)
+    this.courses.push("phys-ed")
     },
-
+    //method to calculate number of courses
+    calculateCourses: function() {
+        let totalCourses = this.courses.length;
+        console.log("student is registered in " + totalCourses + "course(s)");
+        return totalCourses;
+    },
 
 
     //function to display student information
@@ -61,6 +66,9 @@ let newCourses = ["geography", "music", "art", "business"]
 let updatedCourses = [...courses, ...newCourses];
 console.log(updatedCourses);
 
+
+student.addCourse();
+student.calculateCourses();
 
 
 
