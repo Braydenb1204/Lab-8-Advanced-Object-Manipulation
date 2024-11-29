@@ -19,3 +19,7 @@
 console.log(student.name);
 console.log(student.age);
 student.displayInfo(); //calls function to display info
+
+
+let jsonString = JSON.stringify(student); //converts JavaScript object to JSON string
+console.log(jsonString); //displays JSON string
