@@ -39,3 +39,8 @@ let scores = [35, 94, 29, 65];
 let [firstScore, secondScore, thirdScore, fourthScore] = scores;
 console.log(firstScore);
 console.log(secondScore);
+
+
+//copies "student" object with spread operator
+let copiedStudent = {...student};
+
