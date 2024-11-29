@@ -23,3 +23,6 @@ student.displayInfo(); //calls function to display info
 
 let jsonString = JSON.stringify(student); //converts JavaScript object to JSON string
 console.log(jsonString); //displays JSON string
+
+let javaObj = JSON.parse(jsonString); //converts JSON string to JavaScript object
+console.log(javaObj);
