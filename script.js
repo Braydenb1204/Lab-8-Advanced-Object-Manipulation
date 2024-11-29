@@ -32,3 +32,10 @@ console.log(javaObj);
 let {name, courses} = student;
 console.log(name);
 console.log(courses);
+
+
+//creates array called "scores", destructures and logs to console
+let scores = [35, 94, 29, 65];
+let [firstScore, secondScore, thirdScore, fourthScore] = scores;
+console.log(firstScore);
+console.log(secondScore);
