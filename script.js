@@ -47,3 +47,9 @@ let copiedStudent = {...student};
 //modifies the copied object and adds property "graduationYear"
 let modifiedObj = {...copiedStudent, graduationYear: 2026};
 console.log(modifiedObj);
+
+
+let newCourses = ["geography", "music", "art", "business"]
+
+let updatedCourses = [...courses, ...newCourses];
+console.log(updatedCourses);
