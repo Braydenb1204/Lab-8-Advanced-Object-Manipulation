@@ -5,6 +5,12 @@
     age: 24,
     enrolled: true,
     courses: ["Science", " Cooking", " Math", " History"],
+    //method to add course to courses array
+    addCourse: function() {
+    this.courses.push(phys-ed)
+    },
+
+
 
     //function to display student information
     displayInfo: function() {
@@ -15,6 +21,7 @@
     }
 
 }
+
 
 console.log(student.name);
 console.log(student.age);
@@ -53,3 +60,7 @@ let newCourses = ["geography", "music", "art", "business"]
 
 let updatedCourses = [...courses, ...newCourses];
 console.log(updatedCourses);
+
+
+
+
